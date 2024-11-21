@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: collection
 permalink: /
 hidden: true
 header:
@@ -12,14 +12,11 @@ excerpt: >
   <br />
   <br />
   <br />
-intro: 
-  - excerpt: '首页不知道放什么, 就放模版里的素材吧'
-feature_row:
-  - image_path: /assets/images/unsplash-gallery-image-4-th.jpg
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+entries_layout: grid
+classes: wide
+collection: posts
 ---
 
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro" type="center" %} -->
 
-{% include feature_row %}
+<!-- {% include feature_row %} -->

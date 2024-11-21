@@ -8,6 +8,10 @@ tags:
   - 基础组件
   - 运维
   - clickhouse
+header:
+  overlay_image: /assets/images/unsplash-gallery-image-2.jpg
+  teaser: assets/images/unsplash-gallery-image-2-th.jpg
+tagline: ""
 toc: true
 ---
 

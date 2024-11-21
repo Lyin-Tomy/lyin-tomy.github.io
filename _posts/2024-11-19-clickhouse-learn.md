@@ -19,6 +19,10 @@ gallery2:
     image_path: /assets/posts/2024-11-20-clickhouse-learn-cluster-2.png
   - url: /assets/posts/2024-11-20-clickhouse-learn-cluster-3.png
     image_path: /assets/posts/2024-11-20-clickhouse-learn-cluster-3.png
+header:
+  overlay_image: /assets/images/unsplash-gallery-image-3.jpg
+  teaser: assets/images/unsplash-gallery-image-3-th.jpg
+tagline: ""
 ---
 
 ## Clickhouse学习总结

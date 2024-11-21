@@ -157,7 +157,7 @@ collections:
   pets:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  posts:
     output: true
     permalink: /:collection/:path/
 
