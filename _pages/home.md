@@ -4,33 +4,22 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
+  overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-3.jpg
 excerpt: >
   <br />
   <br />
   <br />
+  <br />
+  <br />
+intro: 
+  - excerpt: '首页不知道放什么, 就放模版里的素材吧'
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+  - image_path: /assets/images/unsplash-gallery-image-4-th.jpg
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
 ---
+
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
